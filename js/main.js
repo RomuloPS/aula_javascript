@@ -39,3 +39,39 @@ var frutas = [{nome:"Maçã", cor:"Vermelha"},{nome:"Uva", cor:"Roxa"}];
 console.log(frutas);
 console.log(frutas[1].nome);
 console.log(frutas[1].cor);
+
+//AULA 1 PARTE 3
+
+/*
+var n3 = prompt("Qual sua idade");
+
+if(n3>=18){
+    alert("Maior de idade");
+}else{
+    alert("Menor de idade");
+};
+
+
+var count1 = 0;
+while (count1 <= 5){
+    console.log(count1);
+    //alert(count);
+    count1++;
+}
+
+var count2;
+for (count2 = 0; count2<=5; count2++){
+    console.log(count2);
+}
+*/
+
+var d = new Date();
+
+console.log(d);
+console.log(d.getDate());
+console.log(d.getMonth()+1);
+console.log(d.getFullYear());
+console.log(d.getHours());
+console.log(d.getMinutes());
+console.log(d.getSeconds());
+console.log(d.getMilliseconds());
