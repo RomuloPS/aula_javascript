@@ -1,3 +1,3 @@
 var nome = "Romulo Saraiva";
-
-alert("Bem vindo " + nome);
+var idade = 26;
+alert(nome + " tem " + idade + " anos");
