@@ -80,6 +80,6 @@ console.log(d.getMilliseconds());
 
 //AULA 2
 
-funcition botao(){
+function botao(){
     alert("Obrigado por clicar!");
 }
