@@ -80,6 +80,24 @@ console.log(d.getMilliseconds());
 
 //AULA 2
 
-function botao(){
-    alert("Obrigado por clicar!");
+function clicou(){
+    //alert("Obrigado por clicar!");
+    document.getElementById("agradecimento").innerHTML = "<b>Obrigado por clicar!<b>";
+    //console.log(document.getElementById("agradecimento"));
+}
+
+function redirecionar(){
+    window.open("https://www.google.com");
+    //window.location.href = "https://www.novelupdates.com"
+}
+
+function trocar(elemento){
+    //alert("trocar texto");
+    //document.getElementById("mousemove").innerHTML = "Obrigado por passar o mouse!";
+    elemento.innerHTML = "Obrigado por passar o mouse!";
+}
+
+function voltar(elemento){
+    //document.getElementById("mousemove").innerHTML = "Passe o mouse";
+    elemento.innerHTML = "Passe o mouse";
 }
